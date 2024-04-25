@@ -11,17 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyEvoFit"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenAtivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.MyEvoFit.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyEvoFit.NoActionBar" />
+
     </application>
 
 </manifest>
