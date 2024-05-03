@@ -4,5 +4,45 @@
             android:startColor="#B2C955"
             android:endColor="#73D46E"
             android:angle="-90"/>
-        <corners android:radius="50dp" />
+
+    <corners android:radius="20dp" />
     </shape>
+
+<!--<vector-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:aapt="http://schemas.android.com/aapt"-->
+<!--android:width="166dp"-->
+<!--android:height="214dp"-->
+<!--android:viewportWidth="166"-->
+<!--android:viewportHeight="214"-->
+<!--    >-->
+<!--<group>-->
+<!--    <clip-path-->
+<!--        android:pathData="M20 0H146C157.046 0 166 8.95431 166 20V194C166 205.046 157.046 214 146 214H20C8.95431 214 0 205.046 0 194V20C0 8.95431 8.95431 0 20 0Z"-->
+<!--        />-->
+<!--        <path-->
+<!--            android:pathData="M0 0V214H166V0"-->
+<!--            >-->
+<!--            <aapt:attr name="android:fillColor">-->
+<!--                <gradient-->
+<!--                    android:type="linear"-->
+<!--                    android:fillAlpha="0.8"-->
+<!--                    android:startX="41.5"-->
+<!--                    android:startY="107"-->
+<!--                    android:endX="124.5"-->
+<!--                    android:endY="107"-->
+<!--                    >-->
+<!--                    <item-->
+<!--                        android:color="#B2C955"-->
+<!--                        android:offset="0"-->
+<!--                        />-->
+<!--                    <item-->
+<!--                        android:color="#73D46E"-->
+<!--                        android:offset="1"-->
+<!--                        />-->
+<!--                </gradient>-->
+<!--            </aapt:attr>-->
+<!--        </path>-->
+<!--    </group>-->
+<!--</vector>-->
+

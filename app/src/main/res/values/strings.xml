@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyEvoFit</string>
+    <string name="app_name">EvoFit</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +9,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+<!--       Strings used FragmentFirst       -->
+    <string name="time_train">É hora de treinar</string>
+    <string name="name_user">Wesley!</string>
+    <string name="kcal">Kcal</string>
+    <string name="kg">Kg</string>
+
+
 </resources>
