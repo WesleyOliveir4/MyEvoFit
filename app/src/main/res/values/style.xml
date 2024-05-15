@@ -12,6 +12,12 @@
         <item name="itemTextColor">@color/white</item>
     </style>
 
+    <style name="ic_app">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:src">@drawable/ic_app</item>
+    </style>
+
     <!--    FirstFragment  -->
 
     <style name="tv_time">
