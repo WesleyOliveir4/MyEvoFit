@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.topAppBar)
         replaceFragment(FirstFragment())
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         binding.bottomNavigationView.setOnNavigationItemSelectedListener { item->
             when(item.itemId){
